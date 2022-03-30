@@ -5,3 +5,14 @@
 body{
   background-color:#FAFAFA;
 }
+
+.item-enter{
+  opacity: 0.01;
+  transform: translate(0,0);
+  transition: all 300ms ease-in;
+}
+.item-enter-active{
+  opacity: 1;
+  transform: translate(0,0);
+  transition: all 300ms ease-in;
+}
